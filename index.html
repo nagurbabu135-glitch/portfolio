@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nagur Babu Shaik | 3D Animated Developer Portfolio</title>
-    <meta name="description" content="3D Animated Portfolio of Nagur Babu Shaik - B.Tech CS Student at R K College of Engineering, Software Engineer, and DevOps Enthusiast.">
+    <title>Nagur Babu Shaik |</title>
+    <meta name="description"
+        content="3D Animated Portfolio of Nagur Babu Shaik - B.Tech CS Student at R K College of Engineering, Software Engineer, and DevOps Enthusiast.">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- FontAwesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -56,7 +60,11 @@
             perspective: 1200px;
         }
 
-        h1, h2, h3, h4, .font-heading {
+        h1,
+        h2,
+        h3,
+        h4,
+        .font-heading {
             font-family: 'Outfit', sans-serif;
             letter-spacing: -0.02em;
         }
@@ -83,14 +91,44 @@
             animation: orbFloat 22s ease-in-out infinite alternate;
         }
 
-        .orb-1 { width: 550px; height: 550px; background: var(--primary); top: -120px; left: -100px; }
-        .orb-2 { width: 500px; height: 500px; background: var(--secondary); bottom: 5%; right: -120px; animation-duration: 26s; }
-        .orb-3 { width: 420px; height: 420px; background: var(--accent); top: 50%; left: 35%; animation-duration: 20s; }
+        .orb-1 {
+            width: 550px;
+            height: 550px;
+            background: var(--primary);
+            top: -120px;
+            left: -100px;
+        }
+
+        .orb-2 {
+            width: 500px;
+            height: 500px;
+            background: var(--secondary);
+            bottom: 5%;
+            right: -120px;
+            animation-duration: 26s;
+        }
+
+        .orb-3 {
+            width: 420px;
+            height: 420px;
+            background: var(--accent);
+            top: 50%;
+            left: 35%;
+            animation-duration: 20s;
+        }
 
         @keyframes orbFloat {
-            0% { transform: translate(0, 0) scale(1) rotate(0deg); }
-            50% { transform: translate(80px, 50px) scale(1.12) rotate(180deg); }
-            100% { transform: translate(-60px, 90px) scale(0.92) rotate(360deg); }
+            0% {
+                transform: translate(0, 0) scale(1) rotate(0deg);
+            }
+
+            50% {
+                transform: translate(80px, 50px) scale(1.12) rotate(180deg);
+            }
+
+            100% {
+                transform: translate(-60px, 90px) scale(0.92) rotate(360deg);
+            }
         }
 
         /* Container Layout */
@@ -162,8 +200,15 @@
         }
 
         @keyframes logoPulse {
-            0%, 100% { box-shadow: 0 6px 20px var(--primary-glow); }
-            50% { box-shadow: 0 6px 30px rgba(168, 85, 247, 0.6); }
+
+            0%,
+            100% {
+                box-shadow: 0 6px 20px var(--primary-glow);
+            }
+
+            50% {
+                box-shadow: 0 6px 30px rgba(168, 85, 247, 0.6);
+            }
         }
 
         .nav-menu {
@@ -188,7 +233,8 @@
             padding: 0.4rem 0.6rem;
         }
 
-        .nav-link:hover, .nav-link.active {
+        .nav-link:hover,
+        .nav-link.active {
             color: var(--text-main);
         }
 
@@ -309,9 +355,20 @@
         }
 
         @keyframes pulseDot {
-            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7); }
-            70% { transform: scale(1.05); box-shadow: 0 0 0 9px rgba(52, 211, 153, 0); }
-            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
+            0% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7);
+            }
+
+            70% {
+                transform: scale(1.05);
+                box-shadow: 0 0 0 9px rgba(52, 211, 153, 0);
+            }
+
+            100% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(52, 211, 153, 0);
+            }
         }
 
         .hero-title {
@@ -349,8 +406,15 @@
         }
 
         @keyframes cursorBlink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
         }
 
         .hero-description {
@@ -467,8 +531,13 @@
         }
 
         @keyframes badgeFloat {
-            0% { transform: translateY(0) rotate(0deg); }
-            100% { transform: translateY(-12px) rotate(2deg); }
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(-12px) rotate(2deg);
+            }
         }
 
         .avatar-3d-wrapper {
@@ -484,9 +553,17 @@
         }
 
         @keyframes avatarSpinGlow {
-            0% { box-shadow: 0 12px 35px var(--primary-glow); }
-            50% { box-shadow: 0 12px 45px rgba(6, 182, 212, 0.6); }
-            100% { box-shadow: 0 12px 35px var(--primary-glow); }
+            0% {
+                box-shadow: 0 12px 35px var(--primary-glow);
+            }
+
+            50% {
+                box-shadow: 0 12px 45px rgba(6, 182, 212, 0.6);
+            }
+
+            100% {
+                box-shadow: 0 12px 35px var(--primary-glow);
+            }
         }
 
         .avatar-3d-inner {
@@ -863,10 +940,21 @@
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
         }
 
-        .icon-lang { background: linear-gradient(135deg, #4f46e5, #7c3aed); }
-        .icon-web { background: linear-gradient(135deg, #0ea5e9, #06b6d4); }
-        .icon-db { background: linear-gradient(135deg, #10b981, #059669); }
-        .icon-devops { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+        .icon-lang {
+            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+        }
+
+        .icon-web {
+            background: linear-gradient(135deg, #0ea5e9, #06b6d4);
+        }
+
+        .icon-db {
+            background: linear-gradient(135deg, #10b981, #059669);
+        }
+
+        .icon-devops {
+            background: linear-gradient(135deg, #f59e0b, #ef4444);
+        }
 
         .skill-cat-title {
             font-size: 1.3rem;
@@ -932,7 +1020,8 @@
             transition: var(--transition);
         }
 
-        .filter-btn:hover, .filter-btn.active {
+        .filter-btn:hover,
+        .filter-btn.active {
             background: linear-gradient(135deg, var(--primary), var(--secondary));
             color: white;
             border-color: transparent;
@@ -1176,7 +1265,8 @@
             color: #cbd5e1;
         }
 
-        .form-input, .form-textarea {
+        .form-input,
+        .form-textarea {
             width: 100%;
             padding: 0.95rem 1.2rem;
             border-radius: var(--radius-md);
@@ -1188,7 +1278,8 @@
             transition: var(--transition);
         }
 
-        .form-input:focus, .form-textarea:focus {
+        .form-input:focus,
+        .form-textarea:focus {
             outline: none;
             border-color: var(--primary);
             box-shadow: 0 0 20px var(--primary-glow);
@@ -1302,21 +1393,27 @@
                 grid-template-columns: 1fr;
                 text-align: center;
             }
+
             .hero-description {
                 margin: 0 auto 2.4rem;
             }
+
             .hero-actions {
                 justify-content: center;
             }
+
             .typing-container {
                 justify-content: center;
             }
+
             .contact-grid {
                 grid-template-columns: 1fr;
             }
+
             .timeline::before {
                 left: 30px;
             }
+
             .timeline-item {
                 width: 100%;
                 left: 0 !important;
@@ -1324,15 +1421,19 @@
                 padding-right: 0 !important;
                 text-align: left !important;
             }
+
             .timeline-dot {
                 left: 18px !important;
                 right: auto !important;
             }
+
             .timeline-item:nth-child(odd) .timeline-school,
             .timeline-item:nth-child(odd) .timeline-meta {
                 justify-content: flex-start !important;
             }
-            .badge-pos-1, .badge-pos-2 {
+
+            .badge-pos-1,
+            .badge-pos-2 {
                 display: none;
             }
         }
@@ -1351,21 +1452,27 @@
                 box-shadow: 0 25px 50px rgba(0, 0, 0, 0.9);
                 display: none;
             }
+
             .nav-menu.open {
                 display: flex;
             }
+
             .hamburger {
                 display: block;
             }
+
             .hero-title {
                 font-size: 2.7rem;
             }
+
             .section-title {
                 font-size: 2.1rem;
             }
+
             .projects-grid {
                 grid-template-columns: 1fr;
             }
+
             .footer-content {
                 flex-direction: column;
                 text-align: center;
@@ -1373,6 +1480,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- 3D Three.js WebGL Scene Canvas -->
@@ -1393,8 +1501,8 @@
     <header id="mainHeader">
         <div class="container nav-container">
             <a href="#home" class="brand-logo">
-                <div class="logo-symbol">N</div>
-                <span>Nagur Babu</span>
+                <div class="logo-symbol">NS</div>
+                <span>Nagur Babu Shaik</span>
             </a>
 
             <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation">
@@ -1410,7 +1518,8 @@
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
 
-            <a href="https://github.com/nagurbabu135-glitch" target="_blank" rel="noopener noreferrer" class="nav-cta-btn">
+            <a href="https://github.com/nagurbabu135-glitch" target="_blank" rel="noopener noreferrer"
+                class="nav-cta-btn">
                 <i class="fa-brands fa-github"></i>
                 <span>GitHub</span>
             </a>
@@ -1439,7 +1548,9 @@
                     </div>
 
                     <p class="hero-description">
-                        B.Tech Computer Science student at <strong>R K College Of Engineering</strong> (Class of 2027). Dedicated to building scalable software, innovative web apps, and exploring cloud & DevOps solutions.
+                        B.Tech Computer Science student at <strong>R K College Of Engineering</strong> (Class of 2027).
+                        Dedicated to building scalable software, innovative web apps, and exploring cloud & DevOps
+                        solutions.
                     </p>
 
                     <div class="hero-actions">
@@ -1447,7 +1558,8 @@
                             <span>Explore 3D Projects</span>
                             <i class="fa-solid fa-cube"></i>
                         </a>
-                        <a href="https://github.com/nagurbabu135-glitch" target="_blank" rel="noopener noreferrer" class="btn-3d-outline">
+                        <a href="https://github.com/nagurbabu135-glitch" target="_blank" rel="noopener noreferrer"
+                            class="btn-3d-outline">
                             <i class="fa-brands fa-github"></i>
                             <span>GitHub Profile</span>
                         </a>
@@ -1461,7 +1573,7 @@
                 <!-- 3D Interactive Tilt Hero Card -->
                 <div class="hero-visual">
                     <div class="hero-3d-stage">
-                        
+
                         <!-- Floating 3D Micro-Badges -->
                         <div class="floating-badge badge-pos-1">
                             <i class="fa-solid fa-microchip" style="color: #67e8f9;"></i>
@@ -1474,7 +1586,7 @@
 
                         <div class="hero-interactive-card tilt-card" id="heroCard">
                             <div class="glare-overlay"></div>
-                            
+
                             <div class="depth-layer-high avatar-3d-wrapper">
                                 <div class="avatar-3d-inner">
                                     <i class="fa-solid fa-user-astronaut"></i>
@@ -1497,10 +1609,12 @@
                                 </div>
 
                                 <div class="social-row">
-                                    <a href="https://github.com/nagurbabu135-glitch" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+                                    <a href="https://github.com/nagurbabu135-glitch" target="_blank"
+                                        rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
-                                    <button onclick="copyContact('nagurbabu.shaik@example.com')" class="social-icon-btn" title="Copy Email">
+                                    <button onclick="copyContact('nagurbabu.shaik@example.com')" class="social-icon-btn"
+                                        title="Copy Email">
                                         <i class="fa-solid fa-envelope"></i>
                                     </button>
                                     <a href="#education" class="social-icon-btn" title="Education Timeline">
@@ -1529,17 +1643,24 @@
                 </p>
             </div>
 
-            <div class="tilt-card" style="background: var(--bg-card); border: 1px solid var(--border-glass); border-radius: var(--radius-xl); padding: 2.8rem; backdrop-filter: blur(18px); max-width: 950px; margin: 0 auto; box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5);">
+            <div class="tilt-card"
+                style="background: var(--bg-card); border: 1px solid var(--border-glass); border-radius: var(--radius-xl); padding: 2.8rem; backdrop-filter: blur(18px); max-width: 950px; margin: 0 auto; box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5);">
                 <div class="glare-overlay"></div>
                 <div class="depth-layer">
                     <p style="font-size: 1.15rem; line-height: 1.85; color: #cbd5e1; margin-bottom: 1.6rem;">
-                        Hello! My name is <strong>Nagur Babu Shaik</strong>. I am currently pursuing my <strong>B.Tech</strong> degree at <strong>R K College Of Engineering</strong> in Andhra Pradesh, with graduation in <strong>2027</strong>.
+                        Hello! My name is <strong>Nagur Babu Shaik</strong>. I am currently pursuing my
+                        <strong>B.Tech</strong> degree at <strong>R K College Of Engineering</strong> in Andhra Pradesh,
+                        with graduation in <strong>2027</strong>.
                     </p>
                     <p style="font-size: 1.08rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 1.6rem;">
-                        My technical journey spans programming languages like <strong>C, Java, and Python</strong>, modern web development with <strong>HTML, CSS, and MongoDB</strong>, as well as developer operations and containerization using <strong>Git, GitHub, Docker, and DevOps practices</strong>.
+                        My technical journey spans programming languages like <strong>C, Java, and Python</strong>,
+                        modern web development with <strong>HTML, CSS, and MongoDB</strong>, as well as developer
+                        operations and containerization using <strong>Git, GitHub, Docker, and DevOps
+                            practices</strong>.
                     </p>
                     <p style="font-size: 1.08rem; line-height: 1.8; color: var(--text-muted);">
-                        I love developing creative and functional software—ranging from automated utilities, chatbots, and interactive games to database-driven web applications.
+                        I love developing creative and functional software—ranging from automated utilities, chatbots,
+                        and interactive games to database-driven web applications.
                     </p>
                 </div>
             </div>
@@ -1573,7 +1694,8 @@
                                 <span>R K College Of Engineering</span>
                             </div>
                             <p style="color: var(--text-muted); font-size: 0.98rem; margin-bottom: 0.9rem;">
-                                Pursuing B.Tech curriculum covering Data Structures, Algorithms, Object-Oriented Programming, Database Management, and Software Engineering.
+                                Pursuing B.Tech curriculum covering Data Structures, Algorithms, Object-Oriented
+                                Programming, Database Management, and Software Engineering.
                             </p>
                             <div class="timeline-meta">
                                 <span><i class="fa-regular fa-calendar"></i> Graduation: 2027</span>
@@ -1599,7 +1721,8 @@
                                 <span>Narayana Junior College</span>
                             </div>
                             <p style="color: var(--text-muted); font-size: 0.98rem; margin-bottom: 0.9rem;">
-                                Focused on foundational Mathematics, Physics, and Chemistry (MPC stream), building strong quantitative and analytical reasoning skills.
+                                Focused on foundational Mathematics, Physics, and Chemistry (MPC stream), building
+                                strong quantitative and analytical reasoning skills.
                             </p>
                             <div class="timeline-meta">
                                 <span><i class="fa-regular fa-calendar"></i> Year: 2022</span>
@@ -1625,7 +1748,8 @@
                                 <span>Prathibha High School</span>
                             </div>
                             <p style="color: var(--text-muted); font-size: 0.98rem; margin-bottom: 0.9rem;">
-                                Completed secondary school education with exceptional academic distinction, developing early enthusiasm for science and computer technologies.
+                                Completed secondary school education with exceptional academic distinction, developing
+                                early enthusiasm for science and computer technologies.
                             </p>
                             <div class="timeline-meta">
                                 <span><i class="fa-regular fa-calendar"></i> Year: 2020</span>
@@ -1751,7 +1875,7 @@
 
             <!-- Projects Grid with 3D Tilt Cards -->
             <div class="projects-grid" id="projectsGrid">
-                
+
                 <!-- Project 1: Hangman -->
                 <div class="project-card tilt-card" data-category="games python">
                     <div class="glare-overlay"></div>
@@ -1761,14 +1885,16 @@
                                 <i class="fa-solid fa-puzzle-piece"></i>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/nagurbabu135-glitch/CodeAlpha_Hangman" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <a href="https://github.com/nagurbabu135-glitch/CodeAlpha_Hangman" target="_blank"
+                                    rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
                         <h3 class="project-title">CodeAlpha Hangman</h3>
                         <p class="project-desc">
-                            Classic word guessing game with dynamic visual hangman progress stages, hidden letter validation, and interactive gameplay logic.
+                            Classic word guessing game with dynamic visual hangman progress stages, hidden letter
+                            validation, and interactive gameplay logic.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">Python</span>
@@ -1777,7 +1903,8 @@
                         </div>
                     </div>
                     <div class="project-footer depth-layer">
-                        <a href="https://github.com/nagurbabu135-glitch/CodeAlpha_Hangman" target="_blank" rel="noopener noreferrer" class="repo-link">
+                        <a href="https://github.com/nagurbabu135-glitch/CodeAlpha_Hangman" target="_blank"
+                            rel="noopener noreferrer" class="repo-link">
                             <span>Repository</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -1794,14 +1921,16 @@
                                 <i class="fa-solid fa-list-check"></i>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/nagurbabu135-glitch/taskapp" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <a href="https://github.com/nagurbabu135-glitch/taskapp" target="_blank"
+                                    rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
                         <h3 class="project-title">TaskApp</h3>
                         <p class="project-desc">
-                            Productivity task management application designed for organizing workflows, creating milestones, tracking status, and managing daily task lists.
+                            Productivity task management application designed for organizing workflows, creating
+                            milestones, tracking status, and managing daily task lists.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">JavaScript</span>
@@ -1810,7 +1939,8 @@
                         </div>
                     </div>
                     <div class="project-footer depth-layer">
-                        <a href="https://github.com/nagurbabu135-glitch/taskapp" target="_blank" rel="noopener noreferrer" class="repo-link">
+                        <a href="https://github.com/nagurbabu135-glitch/taskapp" target="_blank"
+                            rel="noopener noreferrer" class="repo-link">
                             <span>Repository</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -1827,14 +1957,16 @@
                                 <i class="fa-solid fa-temperature-half"></i>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/nagurbabu135-glitch/Temperature_Converter" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <a href="https://github.com/nagurbabu135-glitch/Temperature_Converter" target="_blank"
+                                    rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
                         <h3 class="project-title">Temperature Converter</h3>
                         <p class="project-desc">
-                            Real-time temperature conversion utility enabling seamless conversion between Celsius, Fahrenheit, and Kelvin with instant mathematical recalculation.
+                            Real-time temperature conversion utility enabling seamless conversion between Celsius,
+                            Fahrenheit, and Kelvin with instant mathematical recalculation.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">HTML</span>
@@ -1843,7 +1975,8 @@
                         </div>
                     </div>
                     <div class="project-footer depth-layer">
-                        <a href="https://github.com/nagurbabu135-glitch/Temperature_Converter" target="_blank" rel="noopener noreferrer" class="repo-link">
+                        <a href="https://github.com/nagurbabu135-glitch/Temperature_Converter" target="_blank"
+                            rel="noopener noreferrer" class="repo-link">
                             <span>Repository</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -1860,14 +1993,16 @@
                                 <i class="fa-solid fa-arrow-right-arrow-left"></i>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/nagurbabu135-glitch/Palendrome" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <a href="https://github.com/nagurbabu135-glitch/Palendrome" target="_blank"
+                                    rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
                         <h3 class="project-title">Palindrome Checker</h3>
                         <p class="project-desc">
-                            String and numerical palindrome evaluation engine checking characters, ignoring punctuation/spaces, and reporting symmetrical structures.
+                            String and numerical palindrome evaluation engine checking characters, ignoring
+                            punctuation/spaces, and reporting symmetrical structures.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">Data Structures</span>
@@ -1876,7 +2011,8 @@
                         </div>
                     </div>
                     <div class="project-footer depth-layer">
-                        <a href="https://github.com/nagurbabu135-glitch/Palendrome" target="_blank" rel="noopener noreferrer" class="repo-link">
+                        <a href="https://github.com/nagurbabu135-glitch/Palendrome" target="_blank"
+                            rel="noopener noreferrer" class="repo-link">
                             <span>Repository</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -1893,14 +2029,17 @@
                                 <i class="fa-solid fa-file-shield"></i>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/nagurbabu135-glitch/File_Encryption_Decryption" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <a href="https://github.com/nagurbabu135-glitch/File_Encryption_Decryption"
+                                    target="_blank" rel="noopener noreferrer" class="project-link-btn"
+                                    title="View Source Code">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
                         <h3 class="project-title">File Encryption & Decryption</h3>
                         <p class="project-desc">
-                            Cryptographic file security tool providing data encryption and decryption mechanisms to protect sensitive data and private documents.
+                            Cryptographic file security tool providing data encryption and decryption mechanisms to
+                            protect sensitive data and private documents.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">Cryptography</span>
@@ -1909,7 +2048,8 @@
                         </div>
                     </div>
                     <div class="project-footer depth-layer">
-                        <a href="https://github.com/nagurbabu135-glitch/File_Encryption_Decryption" target="_blank" rel="noopener noreferrer" class="repo-link">
+                        <a href="https://github.com/nagurbabu135-glitch/File_Encryption_Decryption" target="_blank"
+                            rel="noopener noreferrer" class="repo-link">
                             <span>Repository</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -1926,14 +2066,17 @@
                                 <i class="fa-solid fa-shield-halved"></i>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/nagurbabu135-glitch/Password_Strength_Checker" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <a href="https://github.com/nagurbabu135-glitch/Password_Strength_Checker"
+                                    target="_blank" rel="noopener noreferrer" class="project-link-btn"
+                                    title="View Source Code">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
                         <h3 class="project-title">Password Strength Checker</h3>
                         <p class="project-desc">
-                            Real-time credential analyzer evaluating character diversity, length, entropy, and complexity to provide security ratings and vulnerability tips.
+                            Real-time credential analyzer evaluating character diversity, length, entropy, and
+                            complexity to provide security ratings and vulnerability tips.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">Security</span>
@@ -1942,7 +2085,8 @@
                         </div>
                     </div>
                     <div class="project-footer depth-layer">
-                        <a href="https://github.com/nagurbabu135-glitch/Password_Strength_Checker" target="_blank" rel="noopener noreferrer" class="repo-link">
+                        <a href="https://github.com/nagurbabu135-glitch/Password_Strength_Checker" target="_blank"
+                            rel="noopener noreferrer" class="repo-link">
                             <span>Repository</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -1959,14 +2103,16 @@
                                 <i class="fa-solid fa-gamepad"></i>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/nagurbabu135-glitch/Tic_Tac_Toe" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <a href="https://github.com/nagurbabu135-glitch/Tic_Tac_Toe" target="_blank"
+                                    rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
                         <h3 class="project-title">Tic Tac Toe</h3>
                         <p class="project-desc">
-                            Interactive digital version of the traditional 3x3 grid game featuring turn-based mechanics, victory condition checks, and reset state handlers.
+                            Interactive digital version of the traditional 3x3 grid game featuring turn-based mechanics,
+                            victory condition checks, and reset state handlers.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">JavaScript</span>
@@ -1975,7 +2121,8 @@
                         </div>
                     </div>
                     <div class="project-footer depth-layer">
-                        <a href="https://github.com/nagurbabu135-glitch/Tic_Tac_Toe" target="_blank" rel="noopener noreferrer" class="repo-link">
+                        <a href="https://github.com/nagurbabu135-glitch/Tic_Tac_Toe" target="_blank"
+                            rel="noopener noreferrer" class="repo-link">
                             <span>Repository</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -1992,14 +2139,17 @@
                                 <i class="fa-solid fa-key"></i>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/nagurbabu135-glitch/Random-Password-Generator-Application" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <a href="https://github.com/nagurbabu135-glitch/Random-Password-Generator-Application"
+                                    target="_blank" rel="noopener noreferrer" class="project-link-btn"
+                                    title="View Source Code">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
                         <h3 class="project-title">Random Password Generator</h3>
                         <p class="project-desc">
-                            Configurable security utility generating random, high-entropy passwords with custom parameters for symbols, numbers, and case sensitivity.
+                            Configurable security utility generating random, high-entropy passwords with custom
+                            parameters for symbols, numbers, and case sensitivity.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">Security</span>
@@ -2008,7 +2158,8 @@
                         </div>
                     </div>
                     <div class="project-footer depth-layer">
-                        <a href="https://github.com/nagurbabu135-glitch/Random-Password-Generator-Application" target="_blank" rel="noopener noreferrer" class="repo-link">
+                        <a href="https://github.com/nagurbabu135-glitch/Random-Password-Generator-Application"
+                            target="_blank" rel="noopener noreferrer" class="repo-link">
                             <span>Repository</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -2025,14 +2176,17 @@
                                 <i class="fa-solid fa-calculator"></i>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/nagurbabu135-glitch/Student_Grade_Calculator" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <a href="https://github.com/nagurbabu135-glitch/Student_Grade_Calculator"
+                                    target="_blank" rel="noopener noreferrer" class="project-link-btn"
+                                    title="View Source Code">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
                         <h3 class="project-title">Student Grade Calculator</h3>
                         <p class="project-desc">
-                            Automated educational grading tool that calculates weighted averages, marks aggregation, GPA, and performance classifications accurately.
+                            Automated educational grading tool that calculates weighted averages, marks aggregation,
+                            GPA, and performance classifications accurately.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">Math & Logic</span>
@@ -2041,7 +2195,8 @@
                         </div>
                     </div>
                     <div class="project-footer depth-layer">
-                        <a href="https://github.com/nagurbabu135-glitch/Student_Grade_Calculator" target="_blank" rel="noopener noreferrer" class="repo-link">
+                        <a href="https://github.com/nagurbabu135-glitch/Student_Grade_Calculator" target="_blank"
+                            rel="noopener noreferrer" class="repo-link">
                             <span>Repository</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -2058,14 +2213,16 @@
                                 <i class="fa-solid fa-database"></i>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/nagurbabu135-glitch/todo-mongodb-app" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <a href="https://github.com/nagurbabu135-glitch/todo-mongodb-app" target="_blank"
+                                    rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
                         <h3 class="project-title">Todo MongoDB App</h3>
                         <p class="project-desc">
-                            Full-stack task manager featuring persistent database integration with MongoDB for complete Create, Read, Update, and Delete (CRUD) operations.
+                            Full-stack task manager featuring persistent database integration with MongoDB for complete
+                            Create, Read, Update, and Delete (CRUD) operations.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">MongoDB</span>
@@ -2074,7 +2231,8 @@
                         </div>
                     </div>
                     <div class="project-footer depth-layer">
-                        <a href="https://github.com/nagurbabu135-glitch/todo-mongodb-app" target="_blank" rel="noopener noreferrer" class="repo-link">
+                        <a href="https://github.com/nagurbabu135-glitch/todo-mongodb-app" target="_blank"
+                            rel="noopener noreferrer" class="repo-link">
                             <span>Repository</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -2091,14 +2249,16 @@
                                 <i class="fa-solid fa-robot"></i>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/nagurbabu135-glitch/basic_chatbot" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <a href="https://github.com/nagurbabu135-glitch/basic_chatbot" target="_blank"
+                                    rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                         </div>
                         <h3 class="project-title">Basic Chatbot</h3>
                         <p class="project-desc">
-                            Interactive conversational bot handling natural text patterns, custom queries, automated dialog flow, and user command processing.
+                            Interactive conversational bot handling natural text patterns, custom queries, automated
+                            dialog flow, and user command processing.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">Python</span>
@@ -2107,7 +2267,8 @@
                         </div>
                     </div>
                     <div class="project-footer depth-layer">
-                        <a href="https://github.com/nagurbabu135-glitch/basic_chatbot" target="_blank" rel="noopener noreferrer" class="repo-link">
+                        <a href="https://github.com/nagurbabu135-glitch/basic_chatbot" target="_blank"
+                            rel="noopener noreferrer" class="repo-link">
                             <span>Repository</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -2146,7 +2307,8 @@
                                 </div>
                                 <div>
                                     <div class="contact-method-label">GitHub Profile</div>
-                                    <a href="https://github.com/nagurbabu135-glitch" target="_blank" rel="noopener noreferrer" class="contact-method-val">
+                                    <a href="https://github.com/nagurbabu135-glitch" target="_blank"
+                                        rel="noopener noreferrer" class="contact-method-val">
                                         github.com/nagurbabu135-glitch
                                     </a>
                                 </div>
@@ -2174,7 +2336,8 @@
                         </div>
 
                         <div style="padding-top: 1.6rem; border-top: 1px solid var(--border-glass);">
-                            <button onclick="copyContact('nagurbabu.shaik@example.com')" class="btn-3d-outline" style="width: 100%; justify-content: center;">
+                            <button onclick="copyContact('nagurbabu.shaik@example.com')" class="btn-3d-outline"
+                                style="width: 100%; justify-content: center;">
                                 <i class="fa-regular fa-copy"></i>
                                 <span>Copy Email Address</span>
                             </button>
@@ -2192,17 +2355,20 @@
 
                         <div class="form-group">
                             <label class="form-label" for="senderEmail">Your Email</label>
-                            <input type="email" id="senderEmail" class="form-input" placeholder="e.g. john@example.com" required>
+                            <input type="email" id="senderEmail" class="form-input" placeholder="e.g. john@example.com"
+                                required>
                         </div>
 
                         <div class="form-group">
                             <label class="form-label" for="messageSubject">Subject</label>
-                            <input type="text" id="messageSubject" class="form-input" placeholder="Project Inquiry / Opportunity" required>
+                            <input type="text" id="messageSubject" class="form-input"
+                                placeholder="Project Inquiry / Opportunity" required>
                         </div>
 
                         <div class="form-group">
                             <label class="form-label" for="senderMessage">Message</label>
-                            <textarea id="senderMessage" class="form-textarea" rows="4" placeholder="Hello Nagur, I'd like to talk about..." required></textarea>
+                            <textarea id="senderMessage" class="form-textarea" rows="4"
+                                placeholder="Hello Nagur, I'd like to talk about..." required></textarea>
                         </div>
 
                         <button type="submit" class="form-btn">
@@ -2223,10 +2389,14 @@
                     <strong>Nagur Babu Shaik</strong> © 2024–2027. Crafted with 3D WebGL & passion.
                 </div>
                 <div style="display: flex; gap: 1.4rem;">
-                    <a href="https://github.com/nagurbabu135-glitch" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted); text-decoration: none; transition: var(--transition);" onmouseover="this.style.color='white'" onmouseout="this.style.color='#94a3b8'">
+                    <a href="https://github.com/nagurbabu135-glitch" target="_blank" rel="noopener noreferrer"
+                        style="color: var(--text-muted); text-decoration: none; transition: var(--transition);"
+                        onmouseover="this.style.color='white'" onmouseout="this.style.color='#94a3b8'">
                         <i class="fa-brands fa-github"></i> GitHub
                     </a>
-                    <a href="#home" style="color: var(--text-muted); text-decoration: none; transition: var(--transition);" onmouseover="this.style.color='white'" onmouseout="this.style.color='#94a3b8'">
+                    <a href="#home"
+                        style="color: var(--text-muted); text-decoration: none; transition: var(--transition);"
+                        onmouseover="this.style.color='white'" onmouseout="this.style.color='#94a3b8'">
                         <i class="fa-solid fa-arrow-up"></i> Top
                     </a>
                 </div>
@@ -2573,7 +2743,7 @@
                 document.execCommand('copy');
                 document.body.removeChild(tempInput);
                 showToast(`Copied ${text} to clipboard!`);
-            } catch(e) {
+            } catch (e) {
                 showToast(`Contact email: ${text}`);
             }
         }
@@ -2678,8 +2848,16 @@
         }
 
         @keyframes thrusterPulse {
-            0% { transform: translateX(-50%) scale(0.85); opacity: 0.65; }
-            100% { transform: translateX(-50%) scale(1.25); opacity: 1; filter: blur(6px); }
+            0% {
+                transform: translateX(-50%) scale(0.85);
+                opacity: 0.65;
+            }
+
+            100% {
+                transform: translateX(-50%) scale(1.25);
+                opacity: 1;
+                filter: blur(6px);
+            }
         }
 
         /* Companion Speech Bubble that travels with the boy */
@@ -2700,8 +2878,15 @@
         }
 
         @keyframes flyBubbleFade {
-            0% { opacity: 0; transform: scale(0.85) translateY(10px); }
-            100% { opacity: 1; transform: scale(1) translateY(0); }
+            0% {
+                opacity: 0;
+                transform: scale(0.85) translateY(10px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
         }
 
         .flying-speech-bubble.flipped {
@@ -2739,9 +2924,20 @@
         }
 
         @keyframes liveDotPulse {
-            0% { transform: scale(0.9); opacity: 0.7; }
-            50% { transform: scale(1.3); opacity: 1; }
-            100% { transform: scale(0.9); opacity: 0.7; }
+            0% {
+                transform: scale(0.9);
+                opacity: 0.7;
+            }
+
+            50% {
+                transform: scale(1.3);
+                opacity: 1;
+            }
+
+            100% {
+                transform: scale(0.9);
+                opacity: 0.7;
+            }
         }
 
         .bubble-action-btns {
@@ -2835,13 +3031,16 @@
                 flex-direction: column-reverse;
                 align-items: flex-end;
             }
+
             .flying-speech-bubble {
                 width: 270px;
                 margin-bottom: 8px;
             }
+
             .flying-speech-bubble.flipped {
                 order: 0;
             }
+
             .flying-boy-avatar-box {
                 width: 80px;
                 height: 80px;
@@ -2877,7 +3076,8 @@
                 </div>
 
                 <div class="bubble-message-text" id="flightBubbleText">
-                    👋 Wheee! I'm Nagur's 3D flying companion! As you scroll, I'll fly around the portfolio with you to show you his journey!
+                    👋 Wheee! I'm Nagur's 3D flying companion! As you scroll, I'll fly around the portfolio with you to
+                    show you his journey!
                 </div>
 
                 <div class="bubble-location-tag">
@@ -2890,7 +3090,7 @@
 
     <!-- 3D FLYING BOY THREE.JS SCRIPT & FLIGHT PHYSICS -->
     <script>
-        (function() {
+        (function () {
             // =========================================================================
             // 1. THREE.JS 3D BOY MODEL CREATION
             // =========================================================================
@@ -3387,4 +3587,5 @@
         })();
     </script>
 </body>
+
 </html>
